@@ -10,6 +10,7 @@ import { isNotEmptyString } from '../utils/is'
 import type { ApiModel, ChatContext, ChatGPTUnofficialProxyAPIOptions, ModelConfig } from '../types'
 import type { BalanceResponse, RequestOptions } from './types'
 
+
 const { HttpsProxyAgent } = httpsProxyAgent
 
 dotenv.config()
